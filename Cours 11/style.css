@@ -1,0 +1,41 @@
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+}
+.carousel-item {
+    margin-left: 1rem;
+}
+.carousel-item {
+    flex: 1 0 450px;
+    margin-left: 1rem;
+}
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: 170px;
+    
+}
+h1,h2,h3{
+    text-align: center;
+}
+img:hover{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+html{
+    background-image: url(/fond-paysage-degrade-plage-coucher-soleil_52683-64263.webp);
+}
